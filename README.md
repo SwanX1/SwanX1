@@ -5,8 +5,9 @@
  - Languages: Latvian, English, and slightly German.
 
 ### Currently I am:
- - Making a Discord Bot
+ - Making a Discord Bot and a Minecraft mod utility (not open-source until release)
  - Trying to contribute to open-source projects
+ - Learning C++
 
 ### Contact me:
 
