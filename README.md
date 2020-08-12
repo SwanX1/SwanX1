@@ -12,7 +12,7 @@
 ### Contact me:
 
 [<img align="left" alt="twitter icon" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/bitchimswan)
-[<img align="left" alt="discord icon" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />](https://discord.gg/T3hzrzC)
+[<img align="left" alt="discord icon" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />](https://discord.gg/BuSh7HC)
 <br>
 
 ### Languages and Tools:
