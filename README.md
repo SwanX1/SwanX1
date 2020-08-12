@@ -1,4 +1,9 @@
-## Hello, I'm Swan 👋 Here's a brief bio about me!
+<h1 align="center">Hello, I'm Swan 👋 Here's a brief bio about me!</h1>
+<h3 align="center">A mediocre javascript programmer</h3>
+<p align="center">
+	<a href="https://twitter.com/bitchimswan" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="bitchimswan" height="40px" width="40px" /></a>
+	<a href="https://discord.gg/BuSh7HC" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" height="40px" width="40px" /></a>
+</p>
 
  - Pronouns: he/him
  - Age: 15
@@ -7,21 +12,22 @@
 ### Currently I am:
  - Making a Discord Bot and a Minecraft mod utility (not open-source until release)
  - Trying to contribute to open-source projects
- - Learning C++
+ - Making Discord.JS examples at [SwanX1/discord.js-examples](https://github.com/SwanX1/discord.js-examples)
+ - ~~Learning C++~~
 
-### Contact me:
-
-[<img align="left" alt="twitter icon" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />](https://twitter.com/bitchimswan)
-[<img align="left" alt="discord icon" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" />](https://discord.gg/BuSh7HC)
-<br>
 
 ### Languages and Tools:
-
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-<br>
+<p align="left"> 
+	<img src="https://komarev.com/ghpvc/?username=swanx1" alt="swanx1" /> 
+</p>
+<p align="left">
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+	<img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> 
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
+	<img src="https://devicons.github.io/devicon/devicon.git/icons/php/php-original.svg" alt="php" width="40" height="40"/></p><p align="center">
+</p>
 
 ---
