@@ -5,7 +5,7 @@
 	<a href="https://discord.gg/BuSh7HC" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" height="40px" width="40px" /></a>
 </p>
 <p align="center"> 
-	<img src="https://komarev.com/ghpvc/?username=swanx1" alt="swanx1" /> 
+	<img src="https://komarev.com/ghpvc/?username=swanx1&style=flat-square&color=cc33ff" alt="swanx1" /> 
 </p>
  - Pronouns: he/him
  - Age: 15
