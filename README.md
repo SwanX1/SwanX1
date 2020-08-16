@@ -7,9 +7,9 @@
 <p align="center"> 
 	<img src="https://komarev.com/ghpvc/?username=swanx1&style=flat-square&color=cc33ff" alt="swanx1" /> 
 </p>
- - Pronouns: he/him
- - Age: 15
- - Languages: Latvian, English, and slightly German.
+<p> - Pronouns: he/him</p>
+<p> - Age: 15</p>
+<p> - Languages: Latvian, English, and slightly German.</p>
 
 ### Currently I am:
  - Making a Discord Bot and a Minecraft mod utility (not open-source until release)
