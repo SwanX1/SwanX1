@@ -1,12 +1,10 @@
 <h1 align="center">Hello, I'm Swan 👋 Here's a brief bio about me!</h1>
 <h3 align="center">A mediocre javascript programmer</h3>
 <p align="center">
-	<a href="https://twitter.com/bitchimswan" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="bitchimswan" height="40px" width="40px" /></a>
-	<a href="https://discord.gg/BuSh7HC" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/discord.svg" height="40px" width="40px" /></a>
+	<a href="PUBLIC_KEY.key" target="blank">My GPG public key</a>
+	<a href="https://discord.gg/BuSh7HC" target="blank">Join my Discord!</a>
 </p>
-<p align="center"> 
-	<img src="https://komarev.com/ghpvc/?username=swanx1" alt="swanx1" /> 
-</p>
+
  - Pronouns: he/him
  - Age: 15
  - Languages: Latvian, English, and slightly German.
