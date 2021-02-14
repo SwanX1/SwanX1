@@ -10,9 +10,8 @@
  - Languages: Latvian, English, and slightly German.
 
 ### Currently I am:
- - Making a Discord Bot and a Minecraft mod utility (not open-source until release)
+ - Making a Discord Bot
  - Trying to contribute to open-source projects
- - Making Discord.JS examples at [SwanX1/discord.js-examples](https://github.com/SwanX1/discord.js-examples)
- - ~~Learning C++~~
-
+ - Making a Minecraft mod at [infernalexp/Infernal-Expansion](https://github.com/infernalexp/Infernal-Expansion)
+ 
 ---
