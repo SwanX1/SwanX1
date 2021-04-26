@@ -7,7 +7,7 @@
 </p>
 
  - Pronouns: he/him
- - Age: 15
+ - Age: 16
  - Languages: Latvian, English, and slightly German.
 
 ### Currently I am:
