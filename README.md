@@ -6,7 +6,7 @@
 	<a href="https://discord.gg/HcDRYkXu2R" target="blank">Discord about my mods!</a>
 </p>
 
- - Pronouns: he/they
+ - Pronouns: they/them
  - Age: 16
  - Languages: Latvian, English, and slightly German.
 
