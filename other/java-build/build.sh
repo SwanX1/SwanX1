@@ -38,7 +38,7 @@ OPT_DOWNLOAD=1
 
 # Log options
 OPT_QUIET=0
-OPT_DEBUG=0
+# OPT_DEBUG=0
 
 # Misc options
 OPT_HELP=0
@@ -118,10 +118,10 @@ while (( "$#" )); do
       shift
       ;;
     
-    -d|--debug|--verbose) # OPT_DEBUG
-      OPT_DEBUG=0
-      shift
-      ;;
+    # -d|--debug|--verbose) # OPT_DEBUG
+    #   OPT_DEBUG=0
+    #   shift
+    #   ;;
 
     -h|-help|--help) # OPT_HELP
       OPT_HELP=1
@@ -140,7 +140,7 @@ while (( "$#" )); do
 done
 
 function outputVersion {
-  echo "Build script version: 1.0.0"
+  echo "Build script version: 1.0.1"
   javac -version
   jar --version
 }
@@ -156,7 +156,7 @@ function outputHelp {
   echo "Logging options:                                                                        "
   echo "                                                                                        "
   echo "  -q, --quiet                           Shut up. (Do not log anything)                  "
-  echo "  -d, --debug, --verbose                Log more then usual.                            "
+  # echo "  -d, --debug, --verbose                Log more then usual.                            "
   echo "                                                                                        "
   echo "Build options:                                                                          "
   echo "                                                                                        "
@@ -168,6 +168,9 @@ function outputHelp {
   echo "                                                                                        "
   echo "  --dependencies, --dependencies-file   Dependency listing (default: ./dependencies.txt)"
   echo "    [FILE]                                                                              "
+  echo "                                                                                        "
+  echo "  -l, --libs,                           Dependency directory (default: ./lib)           "
+  echo "  --libraries, --dependency-dir [DIR]                                                   "
   echo "                                                                                        "
   echo "  --include-dependencies                Include dependency classes in JAR (default)     "
   echo "  --exclude-dependencies                Do not include dependency classes in JAR        "
@@ -186,7 +189,13 @@ function initBuildDirectory {
   if find build/classes/lib &> /dev/null; then
     rm -r build/classes/lib
   fi
-  mkdir -p build/classes/src build/classes/lib
+  if find build/classes/unified &> /dev/null; then
+    rm -r build/classes/unified
+  fi
+  if find build/jar &> /dev/null; then
+    rm -r build/jar
+  fi
+  mkdir -p build/classes/src build/classes/lib build/classes/unified build/jar
 }
 
 function initLibDirectory {
@@ -228,6 +237,7 @@ function extractDependencies {
   pushdir build/classes/lib
   find "../../../$OPT_DEPENDENCY_DIR" | grep ".jar$" | xargs -L 1 jar xf
   find . -type f '!' -name "*.class" | xargs rm
+  find . -name "module-info.class" | xargs rm
   find -type d -empty -delete
   popdir
 }
@@ -246,15 +256,20 @@ function compileClasses {
 
 function createJar {
   log "Creating JAR"
-  classes="build/classes/src"
+  cp -r build/classes/src/* build/classes/unified
   if [ "$OPT_INCLUDE_DEPENDENCIES" -eq "1" ]; then
-    classes="$classes build/classes/lib"
+    cp -r build/classes/lib/* build/classes/unified
   fi
+  touch build/jar/MANIFEST.MF
   if [[ "$OPT_MAIN" == "null" ]]; then
-    find $classes -type f | grep ".class$" | xargs jar cf "$OPT_OUT"
+    jar cfm "build/jar/output.jar" "build/jar/MANIFEST.MF"
   else
-    find $classes -type f | grep ".class$" | xargs jar cfe "$OPT_OUT" "$OPT_MAIN"
+    jar cfme "build/jar/output.jar" "build/jar/MANIFEST.MF" "$OPT_MAIN"
   fi
+  pushdir "build/classes/unified"
+  find "." -type f -name "*.class" | xargs -L 1000 jar uf "../../jar/output.jar"
+  popdir
+  mv "build/jar/output.jar" "$OPT_OUT" 2> /dev/null
 }
 
 function log {
@@ -264,19 +279,19 @@ function log {
 }
 
 function pushdir {
-  if [ "$OPT_DEBUG" -eq "1" ]; then
-    pushd $@;
-  else
+  # if [ "$OPT_DEBUG" -eq "1" ]; then
+  #   pushd $@;
+  # else
     pushd $@ &> /dev/null;
-  fi
+  # fi
 }
 
 function popdir {
-  if [ "$OPT_DEBUG" -eq "1" ]; then
-    popd;
-  else
+  # if [ "$OPT_DEBUG" -eq "1" ]; then
+  #   popd;
+  # else
     popd &> /dev/null;
-  fi
+  # fi
 }
 
 if [ "$OPT_HELP" -eq "1" ]; then

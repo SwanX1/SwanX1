@@ -28,6 +28,9 @@ Full help info:
       --dependencies, --dependencies-file   Dependency listing (default: ./dependencies.txt)
         [FILE]                                                                              
                                                                                             
+      -l, --libs,                           Dependency directory (default: ./lib)           
+      --libraries, --dependency-dir [DIR]                                                   
+                                                                                            
       --include-dependencies                Include dependency classes in JAR (default)     
       --exclude-dependencies                Do not include dependency classes in JAR        
                                                                                             
