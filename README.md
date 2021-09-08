@@ -9,6 +9,7 @@
  - Pronouns: they/them
  - Age: 16
  - Languages: Latvian, English, and slightly German.
+ - BTC address: bc1qtsffz6gh7rujf6ucc5f3ypxjv9zp5l903g7639z00k66lle0adzs06qpjm
 
 ### Currently I am:
  - Making a Discord Bot
