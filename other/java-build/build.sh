@@ -245,9 +245,9 @@ function extractDependencies {
 function compileClasses {
   log "Compiling classes"
   if [ "$OPT_INCLUDE_DEPENDENCIES" -eq "1" ]; then
-    find . | grep .java | xargs javac -s 8 -cp "build/classes/lib" -sourcepath src -d build/classes/src
+    find . | grep "\\.java" | xargs javac -s 8 -cp "build/classes/lib" -sourcepath src -d build/classes/src
   else
-    find . | grep .java | xargs javac -s 8 -sourcepath src -d build/classes/src
+    find . | grep "\\.java" | xargs javac -s 8 -sourcepath src -d build/classes/src
   fi
   if [ "$?" != "0" ]; then
     exit 1
