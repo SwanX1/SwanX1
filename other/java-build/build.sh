@@ -222,7 +222,7 @@ function downloadDependencies {
         filename=$(echo $dependency | grep -m 1 -Po "[^\/]+\.jar$")
         log "Downloading $filename"
       done
-      if [ "$OPT_DEBUG" -eq "0" ]; then
+      if [[ "$OPT_DEBUG" -eq "0" ]]; then
         echo "$deps" | xargs -L 1 -P 16 wget --quiet
       else
         echo "$deps" | xargs -L 1 -P 16 wget -nv
