@@ -7,7 +7,7 @@
 </p>
 
  - Pronouns: they/them
- - Age: 16
+ - Age: 17
  - Languages: Latvian, English, and slightly German.
 
 ### Currently I am:
