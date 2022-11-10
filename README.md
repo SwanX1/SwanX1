@@ -1,5 +1,5 @@
 <h1 align="center">Hello, I'm Swan 👋 Here's a brief bio about me!</h1>
-<h3 align="center">A mediocre java/javascript programmer</h3>
+<h3 align="center">A mediocre java/javascript/(rust?) programmer</h3>
 <p align="center">
 	<a href="https://github.com/SwanX1.gpg" target="blank">My GPG public key</a><br>
 	<a href="https://discord.gg/BuSh7HC" target="blank">Join my Discord!</a><br>
@@ -11,7 +11,8 @@
  - Languages: Latvian, English, and slightly German.
 
 ### Currently I am:
- - Making a Discord Bot
+ - ~~Making a Discord Bot~~
+ - Maxing a literal operating system at [SwanX1/alean](https://github.com/SwanX1/alean)
  - Making multiple Minecraft mods
  - Trying to contribute to open-source projects
  - Making a Minecraft mod at [infernalexp/Infernal-Expansion](https://github.com/infernalexp/Infernal-Expansion)
