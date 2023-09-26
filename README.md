@@ -13,8 +13,7 @@
 ### Currently I am:
  - ~~Making a Discord Bot~~
  - Maxing a literal operating system at [SwanX1/alean](https://github.com/SwanX1/alean)
- - Making multiple Minecraft mods
  - Trying to contribute to open-source projects
- - Making a Minecraft mod at [infernalexp/Infernal-Expansion](https://github.com/infernalexp/Infernal-Expansion)
- 
+ - Making Minecraft mods at [infernalstudios](https://github.com/infernalstudios)
+ - Making a programming language [(mooselang)](https://github.com/SwanX1/mooselang)
 ---
